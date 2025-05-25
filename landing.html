@@ -1,0 +1,171 @@
+<!-- Лендинг моего сайта -->
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>PewPew Live - моя любимая игра</title>
+        <meta name="description" content="Я рассказываю о своей любимой игре PewPew Live">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Шапка сайта -->
+        <header>
+            <h1>PewPew Live - моя любимая игра</h1>
+            <!-- Навигация по сайту -->
+            <nav>
+                <ul>
+                    <li><a href="https://pewpew.live/" target="_blank">Официальный сайт PewPew Live</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.jyaif.pewpewlive" target="_blank">Скачать PewPew Live (Google Play)</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.jyaif.pewpewlive2" target="_blank">Скачать PewPew Live 2 (Google Play)</a></li>
+                    <li><a href="https://apps.apple.com/us/app/pewpew-live/id1556977519" target="_blank">Скачать PewPew Live (App Store)</a></li>
+                    <li><a href="https://apps.apple.com/us/app/pewpew-live-2/id6599859335" target="_blank">Скачать PewPew Live 2 (App Store)</a></li>
+                    <li><a href="https://store.steampowered.com/app/2074980/PewPew_Live/" target="_blank">Скачать PewPew Live (Steam)</a></li>
+                </ul> 
+            </nav>
+        </header>
+
+        <!-- Главное содержимое сайта -->
+        <main>
+            <section>
+                <!-- Описание игры -->
+                <h2>Описание игры</h2>
+                <article>
+                    <p>PewPew Live - многопользовательский шутер с ретро-футуристичекской векторной графикой</p>
+                    <p>Мы играем за космический корабль. Его главная цель побивать рекорды.</p>
+                </article>
+            </section>
+
+            <!-- Особенности игры -->
+            <section>
+                <h2>Основные особенности игры:</h2>
+                <article>
+                    <ul>
+                        <li>Онлайн</li>
+                        <li>5 различных режимов игры</li>
+                        <li>Таблицы лидеров с видео-повторами</li>
+                        <li>Скины</li>
+                        <li>Уровни от сообщества</li>
+                    </ul>
+                </article>
+            </section>
+
+            <!-- Примеры -->
+            <section>
+                <h2>Пример геймплея PewPew Live</h2>
+                <article>
+                    <p>Одиночная игра:</p>
+                    <video width="300" height="150" controls>
+                        <source src="GamePlayPewPewLive.mp4" type="video/mp4">
+                    </video>
+
+                    <p>Многопользовательская игра:</p>
+                    <video width="300" height="150" controls>
+                        <source src="GamePlayPewPewLive1.mp4" type="video/mp4">
+                    </video>
+                </article>
+            </section>
+
+            <!-- Достижения -->
+            <section>
+                <h2>Мои достижения</h2>
+                <article>
+                    <table>
+                        <!-- Шапка таблицы -->
+                        <thead>
+                        <tr>
+                            <th>Уровни</th>
+                            <th>Медаль</th>
+                            <th>Описание и сложность</th>
+                        </tr>
+                        </thead>
+
+                        <!-- Главное содержимое таблицы -->
+                        <tbody>
+                        <tr>
+                            <td>Asteroids</td>
+                            <td>Золотая</td>
+                            <td>При попадании в астероид он раскалывается на мелкие части. Средний.</td>
+                        </tr>
+                        <tr>
+                            <td>Hexagon</td>
+                            <td>Золотая</td>
+                            <td>Интересная механика с настройкой сложности. Регулируемый.</td>
+                        </tr>
+                        <tr>
+                            <td>Eskiv</td>
+                            <td>Золотая</td>
+                            <td>Учит уворачиваться. Лёгкий.</td>
+                        </tr>
+                        <tr>
+                            <td>Waves</td>
+                            <td>Золотая</td>
+                            <td>Учит уворачиваться применяя оружие. Средний.</td>
+                        </tr>
+                        <tr>
+                            <td>Fury</td>
+                            <td>Золотая</td>
+                            <td>Учит глубокому мансу. Трудный.</td>
+                        </tr>
+                        </tbody>
+                        
+                        <!-- Подвал таблицы -->
+                        <tfoot>
+                            <td>Я прошёл все официальные уровни на золотую медаль.</td>
+                        </tfoot>
+                        <caption>Мои достижения в официальных уровнях и их описание</caption>
+                    </table>
+
+                    <!-- Видео-доказательство -->
+                    <p>Видео-доказательство достижения золотой медали на уровне Fury:</p>
+                    <video width="300" height="150" controls>
+                        <source src="Dostijenie.mp4" type="video/mp4">
+                    </video>
+                </article>
+            </section>
+
+            <!-- Обратная связь -->
+            <section>
+                <h2>Обратная связь</h2>
+                <form action="/server" method="post">
+                    <label for="username">
+                        Имя:
+                        <input type="text" id="username" name="username" placeholder="Имя">
+                    </label>
+                    <label for="password">
+                        Пароль:
+                        <input type="password" id="password" name="password" placeholder="Пароль">
+                    </label>
+                    <label for="email">
+                        Email: 
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </label>
+                    <label for="phone">
+                        Телефон:
+                        <input type="tel" name="phone" placeholder="Телефон">
+                    </label>
+                    <label for="age">
+                        Возраст:
+                        <input type="number" id="age" name="age" min="10" max="99">
+                    </label>
+                    <fieldset>
+                        <legend>Пол:</legend>
+                        <label for="gender-male"><input type="radio" id="gender-male" name="gender" value="male"> Мужской</label>
+                        <label for="gender-female"><input type="radio" id="gender-female" name="gender" value="female"> Женский</label>
+                    </fieldset>
+                    <label>
+                        Отзыв:
+                        <input type="text" name="otziv" placeholder="Отзыв">
+                    </label>
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Подвал сайта -->
+        <footer>
+            <p>&copy; 2025 все права защищены.</p>
+            <p>Username разработчика в Telegram:</p>
+            <a href="https://web.telegram.org/k/#@Sudar07" target="_blank">@Sudar07 - username разработчика в Telegram</a>
+        </footer>
+    </body>
+</html>
